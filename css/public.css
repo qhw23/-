@@ -1,0 +1,143 @@
+*{padding: 0;margin: 0;}
+a{text-decoration: none;color: black;}
+li{list-style: none;}
+img:hover{
+    animation:fade 1s ease-in infinite
+}
+@keyframes fade{
+	0%,100%{
+		opacity:1;
+	}
+	50%{
+		opacity:0.6;
+	}
+}
+/* 头部 */
+.header a:hover{
+    color: red;
+}
+.header{
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    height: 80px;
+}
+.header-center{
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}
+.header-center .logo-img img{
+    width: 132px;
+    margin: 15px 0;
+    float: left;
+}
+.header-center .header-text{
+    padding: 30px 0 0 40px;
+    float: left;
+}
+.header-center .header-text li{
+    float: left;
+    padding: 0 25px;
+}
+.header-center .right-text{
+    color: red;
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 16px;
+    float: right;
+    margin-top: 25px;
+}
+.header-center .right-img{
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-top: 30px;
+    margin-left: 15px;
+    overflow: hidden;
+}
+/* 注册
+.zhuce-body{
+    width: 100%;
+    background-color: rgba(204, 204, 204, 0.349);
+    height: 1000px;
+}
+.zhuce-body .from{
+    width: 600px;
+    height: 800px;
+    background-color: #fff;
+} */
+/* 底部 */
+.footer{
+    width: 100%;
+   height: 360px;
+
+    background: #505050;
+    color: #a3a3a3;
+}
+.footer-f{
+  
+    width: 1000px;
+    height: 210px;
+    margin: auto;
+}
+.footer-f dl{
+    margin-top: 40px;
+    float: left;
+    font-size: 13px;
+    padding-left: 22px;
+    line-height: 20px;
+}
+.footer-f dl dt{
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.foot dl dt {
+  
+  
+    padding-bottom: 25px;
+}
+.foot dl:nth-child(1) {
+    padding-left: 0;
+}
+.foot dl:nth-child(2) {
+    width: 140px;
+}
+.foot dl:nth-child(3) {
+    width: 100px;
+}
+.foot dl:nth-child(4) {
+    width: 140px;
+}
+.foot dl:nth-child(5) {
+    width: 148px;
+}
+.foot dl:nth-child(6) {
+    width: 180px;
+}
+.foot dl:nth-child(4) dd a {
+    display: inline-block;
+    width: 69px;
+    
+}
+.footer-f a{
+    float: left;
+    color: #a3a3a3;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.fix{
+    width: 1000px;
+    
+    text-align: center;
+    margin: 0 auto;
+}
+.fix p{
+    display: block;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 13px;
+}

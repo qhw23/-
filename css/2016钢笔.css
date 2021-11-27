@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img:hover{
+    animation:fade 1s ease-in infinite
+}
+@keyframes fade{
+	0%,100%{
+		opacity:1;
+	}
+	50%{
+		opacity:0.6;
+	}
+}
+a {text-decoration: none;}
+li{list-style: none;}
+
+main {
+    width: 100%;
+    height: 4800px;
+    position: relative;
+    background-color: rgb(247,247,247);
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: rgb(163, 163, 182);
+    font-size: 12px;
+    padding-left: 150px;
+    box-sizing: border-box;
+}
+
+.nav a {
+    color: rgb(163, 163, 182);
+    
+}
+
+.all{
+    width: 640px;
+    height: 4390px;
+    background-color: white;
+    margin-left: 150px;
+    border-radius: 6px;
+    border: 1px solid rgb(238, 229, 229);
+}
+
+.top {
+    width: 640px;
+    height: 120px;
+    border-bottom: 1px solid rgb(163,183,211);
+    margin-bottom: 20px;
+}
+.top>p:nth-child(1){
+    padding-top: 20px;
+    font-size: 25px;
+    padding-left: 15px;
+}
+.top>p:nth-child(2){
+    margin-top: 20px;
+    font-size: 13px;
+    color: rgb(163,183,211);
+    padding-left: 15px;
+}
+
+.susu{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: url('../image/tx.jpg') no-repeat;
+    margin-right: 10px;
+}
+
+.time{
+    margin-left: 460px;
+}
+
+.center p{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.big{
+    text-align: center;
+    font-weight: bold;
+}
+
+.bottom{
+    font-size: 13px;
+    color: rgb(163,163,184);
+    margin-top: 50px;
+}
+
+.zong{
+    width: 260px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    top: 50px;
+    right:130px;
+    border: 1px solid rgb(238, 229, 229);
+}
+
+.like,.share{
+    display: inline-block;
+    width: 130px;
+    height: 100px;
+    color: rgb(167, 162, 162);
+    font-size: 13px;
+    float: left;
+    text-align: center;
+    /* margin-top: 30px; */
+    padding-top: 30px;
+    border: 1px solid rgb(238, 229, 229);
+    box-sizing: border-box;
+}
+
+
+
+
